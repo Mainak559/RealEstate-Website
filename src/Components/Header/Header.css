@@ -1,0 +1,33 @@
+.h-wrapper{
+    background-color: black;
+    color: white;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+
+}
+
+.h-menu{
+    gap: 2rem;
+
+}
+
+
+.h-menu>*:hover{
+    cursor: pointer;
+    
+}
+/* .h-menu:hover{
+    background-color: rgb(rgb(168, 154, 154), green, blue);
+} */
+
+a:hover{
+    padding: 6px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
